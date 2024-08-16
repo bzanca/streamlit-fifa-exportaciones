@@ -15,8 +15,8 @@ if "data" not in st.session_state:
 
 st.markdown('#  FIFA23 OFFICIAL DATASET! ⚽')
 st.sidebar.markdown("Desenvolvido por [Exportaciones Zancanaro]")
+btn = st.link_button("Acesse os dados no Kaggle", "https://kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
 st.markdown(
-
 """CONTEXTO
 
 O Conjunto de Dados de Jogadores de Futebol de 2017 a 2023 fornece informações abrangentes sobre jogadores de futebol profissionais. 
@@ -25,5 +25,5 @@ O conjunto de dados contém uma ampla gama de atributos, incluindo dados demogr�
 permitindo o estudo de atributos dos jogadores, métricas de desempenho, avaliação de mercado, análise de clubes, posicionamento de jogadores e desenvolvimento de jogadores ao longo do tempo."""
 )
 
-btn = st.link_button("Acesse os dados no Kaggle", "https://kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+
 
