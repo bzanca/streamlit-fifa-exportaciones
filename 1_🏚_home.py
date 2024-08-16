@@ -3,6 +3,8 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
+st.set_page_config(page_title="Home")
+
 pasta_atual = Path(__file__).parents[0]
 caminho_arquivo = Path(pasta_atual/"datasets/CLEAN_FIFA23_official_data.csv")
 if "data" not in st.session_state: 
