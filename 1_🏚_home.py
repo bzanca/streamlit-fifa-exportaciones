@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
@@ -26,6 +25,5 @@ O conjunto de dados contém uma ampla gama de atributos, incluindo dados demogr�
 permitindo o estudo de atributos dos jogadores, métricas de desempenho, avaliação de mercado, análise de clubes, posicionamento de jogadores e desenvolvimento de jogadores ao longo do tempo."""
 )
 
-btn = st.button("Acesse os dados no Kaggle")
-if btn: 
-    webbrowser.open_new_tab("https://kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+btn = st.link_button("Acesse os dados no Kaggle", "https://kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+
